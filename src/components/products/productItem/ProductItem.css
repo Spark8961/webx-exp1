@@ -1,0 +1,11 @@
+/* PRODUCT */
+.product {
+  padding: 20px;
+  margin-left: 100px;
+}
+/* IMAGE */
+.product img {
+  height: 85px;
+  object-fit: contain;
+  margin: 66.398 0px;
+}

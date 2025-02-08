@@ -1,0 +1,43 @@
+/* PRODUCTLIST */
+.productList {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex: 1;
+}
+/* LOADER */
+.loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.productspage {
+  display: flex;
+}
+
+.productspage_btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 20%;
+  flex: 0.1;
+  margin: 100px 20px;
+  gap: 20px;
+}
+
+.productspage_btns button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+
+}
